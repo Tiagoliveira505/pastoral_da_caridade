@@ -12,3 +12,6 @@ Versão 0.4
 
 Versão 0.5
     adicionei a parte "sobre nos" ( feita por eu e cadu ).
+
+Versão 0.6 
+    Hero finalizado

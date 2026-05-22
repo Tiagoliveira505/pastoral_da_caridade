@@ -130,6 +130,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+
     background: linear-gradient(rgba(0, 0, 0, 0), #d7621a58), url('https://images.pexels.com/photos/36746078/pexels-photo-36746078.jpeg');
     background-size: cover;
     color: white;
@@ -137,22 +138,24 @@ html {
 
 .iconHero {
     font-size: 17px;
-    margin-bottom: 10px;
+    margin-top: 22vh;
+    margin-bottom: 8vh;
+
     background-color: white;
-    color: #ff7300;
+    color: #ff0080;
     padding: 12px;
     border-radius: 50px;
 }
 
 .hero h1 {
-    font-size: 65px;
+    font-size: 85px;
     animation: fadeUp 1s ease;
     padding-bottom: 10px;
 }
 
 /*Animação de escrever*/
 #typewriter {
-    border-right: 2px solid rgb(255, 136, 0); /* O cursor */
+    border-right: 2px solid #ff0080; /* O cursor */
     padding-right: 5px;
     animation: blink 0.7s infinite;
 }
@@ -164,6 +167,7 @@ html {
 .hero p {
     margin-top: 10px;
     font-size: 25px;
+
     text-align: center;
     animation: fadeUp 1.5s ease;
     margin-bottom: 10px;
@@ -174,15 +178,28 @@ html {
     gap: 20px;
     margin: 20px;
 }
+
 .buttons a{
     gap: 20px;
     animation: fadeUp 2s ease;
 
-    padding: 10px;
-    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+    padding: 12px;
+    border-radius: 10px;
     background-color: rgb(255, 136, 0);
-    text-decoration: none;
-    
+    text-decoration: none; 
+
+}
+
+.buttons a {
+    color: white;
+}
+
+.btnSpecial:hover {
+    background-color: #ff0080;
+    transition: 0.5s;
 }
 
 /*===========================*/
@@ -245,7 +262,7 @@ html {
 
 /* 2. Aplica ao elemento desejado */
 .seta {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 25px;
   animation: flutuar 3s ease-in-out infinite;
 }
