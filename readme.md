@@ -15,3 +15,6 @@ Versão 0.5
 
 Versão 0.6 
     Hero finalizado
+
+Versão 0.7
+    Galeria de memórias interativa em `galeria-memorias/` (menu Momentos).
