@@ -18,3 +18,6 @@ Versão 0.6
 
 Versão 0.7
     Galeria de memórias e doações.
+
+Versão 0.8
+    Adição das sections faltantes.
