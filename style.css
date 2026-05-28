@@ -34,11 +34,9 @@ html {
   gap: 10px;
 }
 
-.logo-icon {
-  background: #FC5956;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
+.logo-icon img {
+  width: 40px;
+  height: 40px;
 }
 
 .logo-title {
@@ -131,7 +129,7 @@ html {
     align-items: center;
     text-align: center;
 
-    background: linear-gradient(rgba(0, 0, 0, 0), #d7621a58), url('https://images.pexels.com/photos/36746078/pexels-photo-36746078.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0), #eb9e6e58), url('https://cdn.leonardo.ai/users/7abb808c-7d12-4429-af52-45fc934fce28/generations/1f15a3d7-3f29-6a60-8b90-0959971de361/gemini-2.5-flash-image_A_serene_image_of_medalha_de_sao_bento_in_a_realistic_style_with_a_background.-0.jpg');
     background-size: cover;
     color: white;
 }
@@ -685,7 +683,14 @@ body {
     gap: 10px;
   }
  
-  .footer-logo-icon {
+ .footer-logo img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+  /* .footer-logo-icon {
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -699,13 +704,14 @@ body {
   .footer-logo-icon i {
     font-size: 20px;
     color: #378add;
-  }
+  } */
  
   .footer-logo span {
-    font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
-  }
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--creme);
+    line-height: 1.2;
+}
  
   .footer-brand p {
     font-size: 13px;
@@ -1750,5 +1756,283 @@ img {
   .main-container {
     max-width: 1400px;
   }
+
+}
+
+/* ========================================= */
+/* 🎨 PALETA BASEADA NA MEDALHA DE SÃO BENTO */
+/* ========================================= */
+
+:root{
+  --azul-escuro: #1E2F5B;
+  --azul-medio: #2F4A8A;
+  --dourado: #D4A63A;
+  --dourado-claro: #F2C14E;
+  --vermelho: #B62828;
+  --vermelho-escuro: #8C1C1C;
+  --creme: #F7F1E3;
+  --branco: #FFFFFF;
+  --texto: #2A2A2A;
+}
+
+/* ========================================= */
+/* BODY */
+/* ========================================= */
+
+body{
+    background: var(--creme);
+    color: var(--texto);
+}
+
+/* ========================================= */
+/* HEADER */
+/* ========================================= */
+
+.header{
+    background: var(--azul-escuro);
+    border-bottom: 3px solid var(--dourado);
+}
+
+.logo-icon {
+  background: transparent;
+  padding: 0;
+}
+
+.logo-title,
+.menu-item a{
+    color: var(--creme);
+}
+
+.menu-item a:hover{
+    color: var(--dourado-claro);
+}
+
+/* ========================================= */
+/* HERO */
+/* ========================================= */
+
+.hero{
+    background:
+    linear-gradient(rgba(10,15,35,0.75), rgba(10,15,35,0.82)),
+    url('https://cdn.leonardo.ai/users/7abb808c-7d12-4429-af52-45fc934fce28/generations/1f15a3d7-3f29-6a60-8b90-0959971de361/gemini-2.5-flash-image_A_serene_image_of_medalha_de_sao_bento_in_a_realistic_style_with_a_background.-0.jpg');
+
+    background-size: cover;
+    background-position: center;
+}
+
+.iconHero{
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(242,193,78,0.35);
+    color: var(--dourado-claro);
+    backdrop-filter: blur(8px);
+}
+
+#typewriter{
+    border-right: 2px solid var(--dourado);
+}
+
+.hero p{
+    color: rgba(255,255,255,0.9);
+}
+
+/* ========================================= */
+/* BOTÕES */
+/* ========================================= */
+
+.btn,
+.buttons a{
+    background: var(--dourado);
+    color: var(--azul-escuro) !important;
+    font-weight: bold;
+}
+
+.btn:hover,
+.buttons a:hover{
+    background: var(--dourado-claro);
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
+
+.btnSpecial{
+    background: var(--vermelho);
+    color: white !important;
+}
+
+.btnSpecial:hover{
+    background: var(--vermelho-escuro);
+}
+
+/* ========================================= */
+/* SEÇÕES */
+/* ========================================= */
+
+.section-title{
+    color: var(--azul-escuro);
+}
+
+.sub-title,
+.subtitulo,
+.description{
+    color: #555;
+}
+
+/* ========================================= */
+/* ABOUT CARD */
+/* ========================================= */
+
+.card-left{
+    background: var(--azul-escuro);
+    color: var(--creme);
+}
+
+.card-right{
+    background: var(--branco);
+}
+
+.hero-card{
+    background: #EFE5CC;
+    border-left: 6px solid var(--dourado);
+}
+
+.quote-icon{
+    color: var(--dourado);
+}
+
+/* ========================================= */
+/* CARDS */
+/* ========================================= */
+
+.action-card,
+.step-card,
+.contrib-card,
+.card,
+.timeline-content{
+    background: white;
+    border: 1px solid rgba(30,47,91,0.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.icon-box{
+    background: rgba(212,166,58,0.12);
+}
+
+.icon-box i{
+    color: var(--dourado);
+}
+
+.step-icon,
+.reason-icon,
+.footer-logo-icon,
+.icone-card{
+    background: rgba(212,166,58,0.12);
+}
+
+.step-icon i,
+.reason-icon i,
+.footer-logo-icon i,
+.icone-card i{
+    color: var(--dourado);
+}
+
+/* ========================================= */
+/* TIMELINE */
+/* ========================================= */
+
+.timeline-line{
+    background: var(--dourado);
+}
+
+.timeline-date{
+    background: var(--azul-escuro);
+}
+
+.timeline-date.today{
+    background: var(--vermelho);
+}
+
+.timeline-item::after{
+    background: var(--dourado);
+}
+
+/* ========================================= */
+/* BENEFÍCIOS */
+/* ========================================= */
+
+.section-beneficios{
+    background: #EFE5CC;
+}
+
+.benefit-item i{
+    color: var(--dourado);
+}
+
+/* ========================================= */
+/* WHATSAPP */
+/* ========================================= */
+
+.btn-whatsapp{
+    background: var(--azul-escuro);
+}
+
+.btn-whatsapp:hover{
+    background: var(--azul-medio);
+}
+
+/* ========================================= */
+/* EVENTO */
+/* ========================================= */
+
+.evento{
+    background: #EFE5CC;
+    border: 1px solid rgba(212,166,58,0.3);
+}
+
+.icone-evento{
+    color: var(--dourado);
+}
+
+.mensagem{
+    border: 1px solid rgba(212,166,58,0.25);
+}
+
+/* ========================================= */
+/* FOOTER */
+/* ========================================= */
+
+.footer{
+    background: var(--azul-escuro);
+    border-top: 3px solid var(--dourado);
+}
+
+.footer-logo span,
+.footer-col h3,
+.footer-bottom p,
+.footer-brand p,
+.footer-col ul li{
+    color: var(--creme);
+}
+
+.footer-divider{
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.footer-bottom .memorial{
+    color: rgba(255,255,255,0.6);
+}
+
+/* ========================================= */
+/* MOBILE MENU */
+/* ========================================= */
+
+@media (max-width: 768px){
+
+    .menu{
+        background: var(--azul-escuro);
+        border-top: 2px solid var(--dourado);
+    }
+
+    .menu-toggle{
+        color: var(--creme);
+    }
 
 }
