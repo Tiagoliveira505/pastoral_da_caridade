@@ -202,8 +202,6 @@ html {
     transition: 0.5s;
 }
 
-/*===========================*/
-
 /* ========================= */
 /* 📱 MOBILE */
 /* ========================= */
@@ -1085,6 +1083,8 @@ body{
 /* CONTAINER */
 /* ================================================= */
 .container{
+    display: flex;
+    flex-direction: column;
     max-width: 1050px;
     margin: auto;
     padding: 45px 20px;
@@ -1101,6 +1101,7 @@ body{
     margin-bottom: 60px;
 
     padding: 20px;
+
 }
 
 /* ================================================= */

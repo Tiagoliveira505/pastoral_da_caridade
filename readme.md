@@ -21,3 +21,6 @@ Versão 0.7
 
 Versão 0.8
     Adição das sections faltantes.
+
+Versão 0.9
+    atualizeirei o número do WhatsApp
