@@ -27,3 +27,6 @@ Versão 0.9
 
 Versão 1.0
     fazerndo uns atualizações.
+
+Versão 1.1
+    adpitei todo o site para todos os dispositivos.
