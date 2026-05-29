@@ -1,4 +1,4 @@
-# Website Institucional: Pastoral da Caridade (ACD) 💻❤️
+# Website Institucional: Pastoral da Caridade (ACD) 
 
 # https://www.youtube.com/watch?v=mtoiJJHQgKo
 
@@ -17,7 +17,7 @@
 * **Leonardo Silva Melo** — Section Hero, Sobre Nós
 * **Tiago Oliveira Melo** — Header, Section Momentos
 * **Carlos Eduardo Menezes Restrepo** — Gravação do Vídeo, Section Sobre nós
-* **Matheus Diniz Carvalho Silva** — Section Momentos]
+* **Matheus Diniz Carvalho Silva** — Section Momentos
 * **Manuela Carolina Felicio** — Documentação
 * **Gabriel Domingos Bessa Bezerra** — Banner
 * **Renan Oliveira Nascimento** — Section Doações
