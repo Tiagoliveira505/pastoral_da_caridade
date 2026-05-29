@@ -153,48 +153,8 @@ O projeto foi inteiramente desenhado sob os conceitos de design responsivo. A ex
 
 ---
 
-## 🏁 9. Conclusão
 
-O desenvolvimento do Website teve êxito de alinhar a tecnologia à uma causa com impacto social. Ao transpor a história de Alfeu Castilho para um meio digital, podemos concentrar as principais ideias de solidariedade da ONG em um Website dinâmico.
-
-Nosso Front-End se mostrou capaz de entregar uma experiência de usuário (UX) completa, ponto indicado pelo efeito *typewriter* na tela inicial, assim como a animação dos bonecos interativos em formato SVG. O Website vai além de um portfólio visual, servindo também como um facilitador e uma porta de entrada para processos como o apadrinhamento e a captação de recursos.
-
-A escolha das cores do Website se baseia na medalha de São Bento, e representa otimismo, confiança e paixão.
-
-O histórico de desenvolvimento do Website demonstra o processo gradual das implementações feitas de forma colaborativa entre os membros do grupo, tendo cada membro sua respectiva relevância para a versão final. Juntos, conseguimos transmitir um legado vivo para o meio digital e perpetuar uma causa que muda vidas.
-
-
-
-
-7. Histórico de Desenvolvimento (Versões)
-
-Versão
-Descrição do Incremento
-v0.1
-Estruturação da primeira parte essencial do projeto.
-v0.2
-Implementação e estilização do novo cabeçalho dinâmico.
-v0.3
-Criação e estilização da Section Hero principal.
-v0.4
-Desenvolvimento completo da página / seção de Doações.
-v0.5
-Inclusão da seção "Sobre Nós".
-v0.6
-Ajustes finos e finalização da área Hero.
-v0.7
-Implementação da galeria de memórias comunitárias e refinamento de doações.
-v0.8
-Integração das seções faltantes (Apadrinhamento, Benefícios e Rodapé Institucional).
-v0.9
-Número do Whatsapp incrementado na seção de Apadrinhamento.
-v1.0
-Adaptação do site para outros dispositivos.
-
-
-
-
-8. Conclusão
+## 9. Conclusão
 
 O desenvolvimento do Website teve êxito de alinhar a tecnologia à uma causa com impacto social. Ao transpor a história de Alfeu Castilho para um meio digital, podemos concentrar as principais ideias de solidariedade da ONG em um Website dinâmico.
 Nosso Front-End se mostrou capaz de entregar uma experiência de usuário (UX) completa, ponto indicado pelo efeito typewriter na tela inicial, assim como a animação dos bonecos interativos em formato SVG. O Website vai além de um portfólio visual, servindo também como um facilitador e uma porta de entrada para processos como o apadrinhamento e a captação de recursos.
