@@ -18,9 +18,10 @@
 * **Tiago Oliveira Melo** — Header, Section Momentos
 * **Carlos Eduardo Menezes Restrepo** — Gravação do Vídeo, Section Sobre nós
 * **Matheus Diniz Carvalho Silva** — Section Momentos
-* **Manuela Carolina Felicio** — Documentação
+* **Manuela Carolina Felicio** — Documentação, protótipo no Figma
 * **Gabriel Domingos Bessa Bezerra** — Banner
 * **Renan Oliveira Nascimento** — Section Doações
+* * **Renan Oliveira Nascimento** — Section Doações
 
 ---
 
