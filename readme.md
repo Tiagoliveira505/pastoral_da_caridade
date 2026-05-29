@@ -21,7 +21,7 @@
 * **Manuela Carolina Felicio** — Documentação, protótipo no Figma
 * **Gabriel Domingos Bessa Bezerra** — Banner
 * **Renan Oliveira Nascimento** — Section Doações
-* * **Renan Oliveira Nascimento** — Section Doações
+
 
 ---
 
