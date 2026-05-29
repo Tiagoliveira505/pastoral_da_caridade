@@ -21,6 +21,8 @@
 * **Manuela Carolina Felicio** — Documentação, protótipo no Figma
 * **Gabriel Domingos Bessa Bezerra** — Banner
 * **Renan Oliveira Nascimento** — Section Doações
+* **Juan Brito Alves da Silva** — Gravação do Vídeo
+* **Vitor Mendes da Silva** — Footer
 
 
 ---
